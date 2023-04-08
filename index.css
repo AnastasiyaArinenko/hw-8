@@ -1,0 +1,128 @@
+* {
+  font-family:'Segoe UI', Tahoma, Verdana, sans-serif;
+}
+
+h1 {
+  margin: 0;
+  text-align: center;
+  text-decoration: underline double #000000;
+}
+
+div {
+  margin: 15vh auto;
+  padding: 20px 40px 5px 30px;
+  width: 50vw;
+  border-style: solid solid dashed dashed;
+}
+
+.ending-text {
+  text-decoration: overline solid #000000;
+  text-align: center;
+  font-style: italic;
+  padding-top: 40px;
+}
+
+div.charlotte {
+  background-color: #d4ecf7;
+  position: relative;
+  border-color: #4c7e7a;
+}
+
+div.charlotte img.photo {
+  position: absolute;
+  top: -15%;
+  left: 80%;
+  width: 250px;
+  border: 5px solid #4c7e7a;
+}
+
+div.charlotte .text {
+  color: #4c7e7a;
+  text-decoration: underline solid #4c7e7a;
+}
+
+div.charlotte .description:first-letter {
+  color:#4c7e7a;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+div.charlotte h3 {
+  color: #4c7e7a;
+}
+
+div.charlotte .ingredients li:nth-child(even) {
+  color: #4c7e7a;
+  text-decoration: underline dotted #4c7e7a;
+}
+
+div.charlotte .cooking-method li:nth-child(even) {
+  color: #4c7e7a;
+  text-decoration: underline dotted #4c7e7a;
+}
+
+div.tiramisu {
+  background-color: #e3e6e9;
+  border-color: #808080;
+}
+
+div.tiramisu img.photo {
+  position: absolute;
+  top: -15%;
+  left: 80%;
+  width: 250px;
+  border: 5px solid #808080;
+}
+
+div.tiramisu .text {
+  color: #808080;
+  text-decoration: underline solid #808080;
+}
+
+div.tiramisu .description:first-letter {
+  color: #808080;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+div.tiramisu h3 {
+  color: #808080;
+}
+
+div.tiramisu .ingredients li:nth-child(odd) {
+  color: #808080;
+  text-decoration: underline dashed #808080;
+}
+
+div.cookies {
+  background-color: #a4d8ba;
+  border-color: #1b5e3c;
+}
+
+div.cookies img.photo {
+  position: absolute;
+  top: -15%;
+  left: 80%;
+  width: 250px;
+  border: 5px solid #808080;
+}
+
+div.cookies .text {
+  color: #1b5e3c;
+  text-decoration: underline solid #1b5e3c;
+}
+
+div.cookies .description:first-letter {
+  color: #1b5e3c;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+div.cookies h3 {
+  color: #1b5e3c;
+}
+
+div.cookies .ingredients li:nth-child(3n) {
+  color: #1b5e3c;
+  text-decoration: underline wavy #1b5e3c;
+}
